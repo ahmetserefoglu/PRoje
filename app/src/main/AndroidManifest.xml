@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ahmet.androidprojem" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/indir"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+        android:name=".MyActivity"
+        android:label="@string/app_name" >
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+    </activity>
+        <activity
+        android:name=".uyeol"
+        android:label="@string/app_name" >
+        <intent-filter>
+            <action android:name="com.example.ahmet.androidprojem.UYEOL" />
+
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+    </activity>
+        <activity
+            android:name=".uyegirisi"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.ahmet.androidprojem.UYEGİRİSİ" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".anasayfa"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.ahmet.androidprojem.ANASAYFA" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".admin"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.ahmet.androidprojem.ADMİN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".kullanici"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.ahmet.androidprojem.KULLANİCİ" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".duyuru"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.ahmet.androidprojem.DUYURU" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".randevu"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.ahmet.androidprojem.RANDEVU" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".admingiris"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.ahmet.androidprojem.ADMİNGİRİS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+    </application>
+
+</manifest>

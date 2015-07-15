@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kullanicilar"
+        android:id="@+id/kullanici"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="96dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Duyurular"
+        android:id="@+id/duyuru"
+        android:layout_below="@+id/kullanici"
+        android:layout_marginTop="48dp"
+        android:layout_alignRight="@+id/kullanici"
+        android:layout_alignEnd="@+id/kullanici"
+        android:layout_alignLeft="@+id/kullanici"
+        android:layout_alignStart="@+id/kullanici" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Randevu"
+        android:id="@+id/randevu"
+        android:layout_marginTop="63dp"
+        android:layout_below="@+id/duyuru"
+        android:layout_alignLeft="@+id/duyuru"
+        android:layout_alignStart="@+id/duyuru"
+        android:layout_alignRight="@+id/duyuru"
+        android:layout_alignEnd="@+id/duyuru" />
+</RelativeLayout>

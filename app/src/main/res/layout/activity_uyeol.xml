@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    >
+
+    <TextView
+        android:layout_width="374dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Mustafa Kemal Üniversitesi Randevu Sistemi"
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_weight="0.03"
+         />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Adınız:"
+        android:id="@+id/textView2"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="30dp" />
+    <EditText
+        android:layout_width="176dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/adi" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3"
+        android:text="Soyadınız:"
+        android:layout_weight="0.06" />
+    <EditText
+        android:layout_width="176dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/soyadi"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView4"
+        android:text="Numaranız:"
+        android:layout_weight="0.06" />
+    <EditText
+        android:layout_width="176dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/numara"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView5"
+        android:text="Sınıfınız:"
+        android:layout_weight="0.06" />
+    <EditText
+        android:layout_width="176dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/sinif"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView6"
+        android:text="Şifre Oluşturunuz:"
+        android:layout_weight="0.06" />
+    <EditText
+        android:layout_width="176dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/sifre"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="KAYIT OL"
+        android:id="@+id/kayit"
+
+        android:layout_gravity="center_horizontal" />
+
+
+
+
+
+
+
+</LinearLayout>
